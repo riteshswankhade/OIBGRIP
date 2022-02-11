@@ -1,0 +1,89 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+.content{
+    width: 100%;
+    height: 100%;
+    position: relative;
+    background: white;
+}
+nav {
+    display: flex;
+    width: 100%;
+    margin: auto;
+    bottom: 500px;
+    justify-content: space-between;
+}
+nav ul li{
+    display: inline-block;
+    list-style: none;
+    margin: 100px;
+}
+nav ul li a{
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+}
+.logo{
+    width: 300px;
+    cursor: pointer;
+    margin: -25px;
+    padding-top: -50%;
+}
+
+nav ul li a:hover{
+    color: palevioletred;
+}
+.details{
+    margin-left: 10%;
+    margin-top: 10%;
+}
+.details h1{
+    font-size: 50px;
+    margin-bottom: 10px;
+    color: black;
+
+}
+.details p{
+    color: gray;
+    line-height: 20px;
+    margin-bottom: 10px;
+}
+button{
+    
+    width: 200px;
+    padding: 15px 0;
+    margin: 20px 1px;
+    text-align: center;
+    font-weight: bold;
+    border-radius: 50px;
+    background: transparent;
+}
+button:hover{
+    background-color: lightcoral;
+}
+.images{
+    width: 50%;
+    height: 50%;
+    position: absolute;
+    bottom: 200;
+    right: 1px;
+}
+.images img{
+    height: 70%;
+    position: absolute;
+    left: 50%;
+    bottom: 0;
+    transform: translateX(-50%);
+    transition: bottom 1s, left 1s;
+}
+.images:hover .shape{
+    bottom: 40px;
+
+}
+.images:hover .ritesh{
+    left: 45%;
+
+}
